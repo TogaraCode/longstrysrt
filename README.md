@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# longstrysrt (Athenaeum)
 
-## Getting Started
+**Athenaeum** is an online library, bookstore, and fandom social club. It’s built for readers, reviewers, and fan communities who want more than just stars and blurbs.  
+Users can review books, authors, and characters; join fandom hubs; discuss literature in meaningful ways; and discover related works through intelligent references.
 
-First, run the development server:
+---
+
+## 🔧 Tech Stack
+
+- **Frontend**: React + Next.js 15
+- **Styling**: Tailwind CSS
+- **Auth**: Clerk
+- **Database**: Convex & Firebase (for dual-layer use or future swap)
+- **API Integrations**: ISBN API, Amazon Product API, Swift (TBD)
+- **Payments**: Stripe (for access tiers & premium features)
+- **Hosting**: Vercel
+
+---
+
+## 🚀 Features
+
+### Core
+
+- 📚 Online library and digital bookshelf
+- ✍️ Reviews: Book, author, and character-based
+- 🧠 Intelligent reference linking and research assistance
+- 🛒 Bookstore with Amazon integration and ISBN metadata lookup
+- 🎭 Fandom hubs for community interaction
+
+### Social Layer
+
+- ✅ Friend system & messaging
+- ✅ Comment threads and review rooms
+- ✅ Custom lounges (user-created discussion groups)
+
+### Monetization & SaaS Tiering
+
+- 💳 Checkout & pricing tiers for content access
+- 🔒 Exclusive lounge access for premium users
+- 🧰 Token economy (coming soon)
+- 🧾 Analytics for group owners (planned)
+
+---
+
+## 🛠 Setup
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/TogaraCode/longstrysrt.git
+cd longstrysrt
+npm install
